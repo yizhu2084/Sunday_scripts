@@ -1,0 +1,133 @@
+  500  q
+  501  ls
+  502  cd
+  503  clear
+  504  git
+  505  clear
+  506  git config --global user.name "k8hertweck"
+  507  git config --global user.email "k8hertweck@gmail.com"
+  508  git config --global core.editor "nano -w"
+  509  git config --list
+  510  mkdir demo_repo
+  511  ls
+  512  cd demo_repo/
+  513  ls
+  514  git init
+  515  ls
+  516  ls -a
+  517  git status
+  518  touch morning.txt
+  519  ls
+  520  nano morning.txt 
+  521  cat morning.txt 
+  522  git status
+  523  git add morning.txt 
+  524  git status
+  525  git commit -m "saying good morning"
+  526  git status
+  527  nano morning.txt 
+  528  git status
+  529  git add morning.txt 
+  530  git status
+  531  git commit -m "commentary on coffee"
+  532  git status
+  533  git log
+  534  nano morning.txt 
+  535  git status
+  536  git diff
+  537  git commit -m "git amazing"
+  538  git add morning.txt 
+  539  git commit -m "git amazing"
+  540  man git
+  541  git-status
+  542  git
+  543  nano addedfile.txt
+  544  git status
+  545  nano morning.txt 
+  546  git status
+  547  git add addedfile.txt 
+  548  git status
+  549  git add morning.txt 
+  550  git status
+  551  git commit
+  552  ls
+  553  git status
+  554  git log
+  555  git diff HEAD~1 morning.txt 
+  556  clear
+  557  ls -a
+  558  git status
+  559  cd ..
+  560  ls
+  561  git status
+  562  ls -a
+  563  cd /Users/kate/Desktop/Sunday_scripts 
+  564  ls
+  565  ls -a
+  566  git status
+  567  git init
+  568  git status
+  569  git add *
+  570  git status
+  571  git commit -m "initial commit of scripts"
+  572  nano setupProject.sh 
+  573  git status
+  574  git add setupProject.sh 
+  575  git commit -m "completing comment"
+  576  git status
+  577  ls
+  578  git diff 
+  579  git diff HEAD~1 setupProject.sh 
+  580  ls
+  580  ls
+  581  ls -l
+  582  head setupProject.sh 
+  583  bash setupProject.sh 
+  584  ls
+  585  nano setupProject.sh 
+  586  git add setupProject.sh 
+  587  git commit -m "adding -k to curl"
+  587  git commit -m "adding -k to curl"
+  588  git status
+  589  ls
+  590  ls code/
+  591  git add data/
+  592  git status
+  593  git commit -m "intermediate output"
+  594  git status
+  595  ls
+  596  nano cleanData.sh 
+  597  bash cleanData.sh 
+  598  ls
+  599  git status
+  600  git add *
+  601  git commit -m "cleaned country files"
+  602  ls
+  603  nano combine.sh 
+  604  bash combine.sh 
+  605  git status
+  606  ls output/
+  607  head output/combined_gapMinder.tsv 
+  608  git add *
+  609  git status
+  610  git commit -m "adding gapminder output"
+  611  ls
+  612  git mv *.sh
+  613  git mv *.sh code/
+  614  ls
+  615  git status
+  616  git commit -m "archiving scripts"
+  617  git status
+  618  ls
+  619  git remote add origin https://github.com/k8hertweck/Sunday_scripts.git
+  620  git remote -v
+  621  git push origin master
+  622  git pull origin master
+  623  git pull origin master
+  624  git status
+  625  ls
+  626  nano README.md 
+  627  cd
+  628  vi .bash_profile
+  629  ls
+  630  history 1
